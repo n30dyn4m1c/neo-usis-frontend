@@ -12,7 +12,7 @@ A student management system interface. Built guided by ChatGPT.
 - **Database**: PostgreSQL (via backend)
 - **Authentication**: (Planned: JWT or Google OAuth)
 - **Build Tools**: npm, Create React App
-- **Deployment**: GitHub Pages (planned)
+- **Deployment**: Docker (planned)
 
 ---
 
