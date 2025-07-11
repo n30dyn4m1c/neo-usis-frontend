@@ -1,6 +1,6 @@
 # 🌐 Neo USIS Frontend
 
-A student management system interface. Built from scratch.
+A student management system interface. Built guided by ChatGPT.
 
 ---
 
