@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# 🌐 Neo USIS Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A student management system interface. Built from scratch.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧰 Tech Stack
 
-### `npm start`
+- **Backend Framework**: Node.js + Express (API only)
+- **Frontend**: React
+- **Styling**: (Planned: Tailwind CSS)
+- **Database**: PostgreSQL (via backend)
+- **Authentication**: (Planned: JWT or Google OAuth)
+- **Build Tools**: npm, Create React App
+- **Deployment**: GitHub Pages (planned)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Key Features
 
-### `npm test`
+- ✅ Add Student Form with full fields
+- ✅ POST request to backend using Axios
+- ✅ Redirect to `/students` after submission
+- 🔜 View, edit, and delete student records
+- 🔜 Responsive UI with Tailwind CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🏗️ Build Process
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Setup Create React App with routing
+2. Build AddStudentForm with controlled inputs
+3. Connect form to Express API via Axios
+4. Add navigation and route switching
+5. Implement redirect after form submit
+6. Prepare for table view and layout styling
+7. Plan for CRUD + authentication
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎓 Lessons Learned
 
-### `npm run eject`
+- React Router v6 route structure and `<Routes>`
+- Axios simplifies API integration
+- Keep form and state minimal to maintain clarity
+- Folder structure affects clarity and scaling
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧠 Areas for Improvement
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Add client-side validation and feedback
+- Improve layout and styling with Tailwind
+- Add edit/delete functionality
+- Add toast-style alerts
+- Add auth and route protection
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ Setup Instructions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1. Clone the Repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/n30dyn4m1c/neo-usis-frontend.git
+cd neo-usis-frontend
+```
 
-### Code Splitting
+### 2. Install Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm install
+```
 
-### Analyzing the Bundle Size
+### 3. Run the App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm start
+```
 
-### Making a Progressive Web App
+Open your browser:  
+- Web UI: http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📽️ Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Coming soon
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📝 License & Acknowledgments
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- © 2025 Neo Malesa  
+- Built with 💙 for university student record management  
+- Powered by React, Axios, and RESTful API design
