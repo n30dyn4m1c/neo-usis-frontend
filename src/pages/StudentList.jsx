@@ -21,6 +21,10 @@ export default function StudentList() {
   return (
     <div className="p-8">
       <h2 className="text-2xl font-bold mb-4">Student List</h2>
+      <Link to="/students/create" className="inline-block bg-green-600 text-white px-4 py-2 mb-4 rounded hover:bg-green-700">
+  + Add Student
+</Link>
+
       <table className="w-full table-auto border-collapse">
         <thead className="bg-gray-100">
           <tr>
